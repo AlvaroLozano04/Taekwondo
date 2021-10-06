@@ -1,0 +1,401 @@
+<html>
+  <body>
+    <h2>TABLA 1</h2>
+    <table border="1">
+        <tr>
+            <td>col1</td>
+            <td colspan="4">col2</td>
+            <td>col3</td>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td colspan="4">
+                <table  border="1">
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                </table>
+            </td>
+            <td>col3</td>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td colspan="4">
+                <table border="1">
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                </table>
+            </td>
+            <td>col3</td>
+        </tr>
+    </table><br>
+    <h2> Tabla 2 </h2>
+    <table border="1">
+      <tr>
+        <td>Celda</td>
+        <td colspan="3">Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+      </tr>
+      <tr>
+        <td>Celda</td>
+        <td colspan="3">Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+      </tr>
+      <tr>
+        <td>Celda</td>
+        <td colspan="3">Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+      </tr>
+      <tr>
+        <td>Celda</td>
+        <td colspan="3">
+            <table  border="1">
+              <tr>
+                <td>Celda</td>
+                <td>Celda</td>
+              </tr>
+              <tr>
+                <td>Celda</td>
+                <td>Celda</td>
+              </tr>
+              <tr>
+                <td>Celda</td>
+                <td>Celda</td>
+              </tr>
+            </table>
+          </td>
+          <td>Celda</td>
+          <td>Celda</td>
+      </tr>
+    </table><br>
+    <h2> Tablas con celdas extendidas</h2>
+     <table border="1">
+                <tr>
+                  <td colspan="3">alfa</td>
+                  <td>bravo</td>
+                  <td rowspan="2">Charlie</td>
+                </tr>
+                <tr>
+                  <td>delta</td>
+                  <td>echo</td>
+                  <td>foxtrot</td>
+                  <td>golf</td>
+                </tr>
+                <tr>
+                  <td>hotel</td>
+                  <td rowspan="2"; colspan="3">india</td>
+                  <td>juliet</td>
+                </tr>
+                <tr>
+                  <td>kilo</td>
+                  <td>lima</td>
+                </tr>
+                <tr>
+                  <td>mike</td>
+                  <td>november</td>
+                  <td>oscar</td>
+                  <td>papa</td>
+                  <td>quebec</td>
+                </tr>
+      </table><br>
+      <h2>Basic Html Table</h2><br>
+      <table border="1">
+        <tr>
+          <td style="text-align:center">Level1</td>
+          <td style="text-align:center">Level2</td>
+          <td style="text-align:center">Level3</td>
+          <td style="text-align:center">Info</td>
+          <td style="text-align:center">Name</td>
+        </tr>
+        <tr>
+          <td rowspan="6">System</td>
+          <td rowspan="4">System apps</td>
+          <td rowspan="3">SystemEnv</td>
+          <td>App test</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Memory</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td>SystemEnv2</td>
+          <td>App test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td rowspan="2">System Memory</td>
+          <td rowspan="2">Memory Test</td>
+          <td>Memory Func</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>Apes Test</td>
+          <td>foo</td>
+        </tr>
+      </table><br>
+      <h2>Resultados globales</h2><br>
+      <table border="1" id=Tabla5>
+        <style>
+        #Tabla5 {
+            padding: 0.5em;
+            border: 1px solid rgba(0,0,0,0.2);
+          }
+
+        </style>
+        <tr>
+          <td colspan="4"; style="text-align:center">Curso 2019/2010</td>
+        </tr>
+        <tr>
+          <td colspan="2"; style="text-align:center">1º ESO-A</td>
+          <td colspan="2"; style="text-align:center">1º ESO-A</td>
+        </tr>
+        <tr>
+          <td style="text-align:center">Aprobados</td>
+          <td style="text-align:center">Suspensos</td>
+          <td style="text-align:center">Aprobados</td>
+          <td style="text-align:center">Suspensos</td>
+        </tr>
+        <tr>
+          <td style="text-align:center">68%</td>
+          <td style="text-align:center">57%</td>
+          <td style="text-align:center">32%</td>
+          <td style="text-align:center">43%</td>
+        </tr>
+      </table><br>
+      <h2>Estilo 1</h2>
+      <table border="1" id=Tabla6>
+        <style>
+        #Tabla6 {
+            border: 1px solid #ddd;
+            text-align: left;
+          }
+        #Tabla6 {
+            border-collapse: collapse;
+            width: 100%;
+          }
+        #Tabla6 {
+            padding: 15px;
+          }
+
+
+        </style>
+        <tr>
+          <td colspan="4"; style="text-align:center">Curso 2019/2010</td>
+        </tr>
+        <tr>
+          <td colspan="2"; style="text-align:center">1º ESO-A</td>
+          <td colspan="2"; style="text-align:center">1º ESO-A</td>
+        </tr>
+        <tr>
+          <td style="text-align:center">Aprobados</td>
+          <td style="text-align:center">Suspensos</td>
+          <td style="text-align:center">Aprobados</td>
+          <td style="text-align:center">Suspensos</td>
+        </tr>
+        <tr>
+          <td style="text-align:center">68%</td>
+          <td style="text-align:center">57%</td>
+          <td style="text-align:center">32%</td>
+          <td style="text-align:center">43%</td>
+        </tr>
+      </table><br>
+      <h2>Estilo2</h2>
+      <table border="1" id=Tabla1>
+        <style>
+        #Tabla1 {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        #Tabla1 {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+
+        </style>
+        <tr>
+          <td style="text-align:center">Level1</td>
+          <td style="text-align:center">Level2</td>
+          <td style="text-align:center">Level3</td>
+          <td style="text-align:center">Info</td>
+          <td style="text-align:center">Name</td>
+        </tr>
+        <tr>
+          <td rowspan="6">System</td>
+          <td rowspan="4">System apps</td>
+          <td rowspan="3">SystemEnv</td>
+          <td>App test</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Memory</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td>SystemEnv2</td>
+          <td>App test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td rowspan="2">System Memory</td>
+          <td rowspan="2">Memory Test</td>
+          <td>Memory Func</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>Apes Test</td>
+          <td>foo</td>
+        </tr>
+      </table><br>
+      <h2>Estilo3</h2>
+      <table border="1" id=Tabla2>
+        <style>
+        #Tabla2 {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        #Tabla2 {
+          text-align: left;
+          padding: 8px;
+        }
+        #Tabla2:hover {background-color: yellow;}
+
+        </style>
+        <tr>
+          <td style="text-align:center">Level1</td>
+          <td style="text-align:center">Level2</td>
+          <td style="text-align:center">Level3</td>
+          <td style="text-align:center">Info</td>
+          <td style="text-align:center">Name</td>
+        </tr>
+        <tr>
+          <td rowspan="6">System</td>
+          <td rowspan="4">System apps</td>
+          <td rowspan="3">SystemEnv</td>
+          <td>App test</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Memory</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td>SystemEnv2</td>
+          <td>App test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td rowspan="2">System Memory</td>
+          <td rowspan="2">Memory Test</td>
+          <td>Memory Func</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>Apes Test</td>
+          <td>foo</td>
+        </tr>
+      </table><br>
+      <h2>Estilo4</h2>
+      <table border="1" id=Tabla9>
+        <style>
+         #Tabla9{
+          border-collapse: collapse;
+          width: 100%;
+        }
+        #Tabla9 {
+          text-align: left;
+          padding: 8px;
+        }
+        #Tabla9:nth-child(even) {background-color: #f2f2f2;}
+        </style>
+        <tr>
+          <td style="text-align:center">Level1</td>
+          <td style="text-align:center">Level2</td>
+          <td style="text-align:center">Level3</td>
+          <td style="text-align:center">Info</td>
+          <td style="text-align:center">Name</td>
+        </tr>
+        <tr>
+          <td rowspan="6">System</td>
+          <td rowspan="4">System apps</td>
+          <td rowspan="3">SystemEnv</td>
+          <td>App test</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Memory</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td>SystemEnv2</td>
+          <td>App test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td rowspan="2">System Memory</td>
+          <td rowspan="2">Memory Test</td>
+          <td>Memory Func</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>Apes Test</td>
+          <td>foo</td>
+        </tr>
+      </table><br>
+
+  </body>
+</html>
