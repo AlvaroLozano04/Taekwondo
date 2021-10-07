@@ -1,0 +1,91 @@
+
+
+
+.india{
+  border: 2px ;
+  position:relative;
+  background-color:gray ;
+  height:100px ;
+  width:100px ;
+}
+.youknow{
+  border: 2px ;
+  position:relative;
+  background-color:green ;
+  height:100px ;
+  width:100px ;
+}
+.india1{
+  border: 2px ;
+  position:relative;
+  background-color:gray ;
+  height:100px ;
+  width:100px ;
+  float: left;
+}
+.youknow1{
+  border: 2px ;
+  position:relative;
+  background-color:green ;
+  height:100px ;
+  width:100px ;
+  float: left;
+}
+.youknow2{
+  border: 2px ;
+  position:relative;
+  background-color:green ;
+  height:100px ;
+  width:100px ;
+  float: right;
+}
+.india2{
+  border: 2px ;
+  position:relative;
+  background-color:gray ;
+  height:100px ;
+  width:100px ;
+  float: right;
+}
+.paton{
+  border: 2px ;
+  position:relative;
+  background-color:palevioletred;
+  height:100px ;
+  width:100px ;
+  float: left;
+}
+.solapado1{
+  border: 2px ;
+  position: absolute;
+  background-color: grey;
+  height: 100px;
+  width: 200px;
+}
+.solapado2{
+  border: 2px;
+  position: absolute;
+  background-color: khaki;
+  height: 100px;
+  width: 200px;
+  top: 1260px;
+  left: 40px;
+}
+.solapado12{
+  border: 2px ;
+  position: absolute;
+  background-color: grey;
+  height: 100px;
+  width: 200px;
+  z-index: 1;
+}
+.solapado3{
+  border: 2px;
+  position: absolute;
+  background-color: khaki;
+  height: 100px;
+  width: 200px;
+  top: 1430px;
+  left: 40px;
+}
+
